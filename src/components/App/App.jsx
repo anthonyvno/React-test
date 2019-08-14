@@ -1,8 +1,7 @@
 //import React from 'react';
 import './App.css';
-import React, { useState, useEffect } from "react";
-import Card from 'react-bootstrap/Card';
-import { Button,Container,Row,Col,Image } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Container,Row,Col,Image } from 'react-bootstrap';
 
 
 const App = () => {
@@ -73,9 +72,6 @@ const App = () => {
     fetchData(search);
   }
 
-  /*useEffect(() => {
-    fetchData("anthonyvno");
-  });*/
 
   return (
     <div className="App-greeting">
@@ -153,7 +149,7 @@ const App = () => {
       
       }
       {
-        hasError ? (<p>er is een error: {hasError}</p>) : (<p></p>)
+        hasError ? (<p>Something went wrong!</p>) : (<p></p>)
       }
 
 
