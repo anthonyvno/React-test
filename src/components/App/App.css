@@ -50,3 +50,13 @@ h1 {
   max-width: 720px;
   text-align: center;
 }
+
+.App-profile{
+  color: black;
+  background-color:whitesmoke;
+}
+.App-image{
+  max-width: 18rem;
+  padding: 3px;
+  padding-left:0;
+}
